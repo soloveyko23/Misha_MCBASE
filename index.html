@@ -1,0 +1,1389 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>UI</title>
+	<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/main.min.css?_v=20241127104235">
+</head>
+
+<body>
+	<header class="hide-mobile header">
+  <div class="header__burger">
+    <button type="button" class="icon-menu menu__icon"><span></span></button>
+  </div>
+	<a href="#" class="header__logo">
+		<picture><source srcset="../images/logo.webp" type="image/webp"><img src="../images/logo.png" alt=""></picture>
+	</a>
+
+	<nav class="header__menu header__menu--pc">
+		<ul>
+			<li><a href="#">Загрузки <i class="fa fa-angle-down"></i></a>
+				<ul class="subMenu">
+					<li><a href="#">Electronic</a></li>
+					<li><a href="#">Fashion<i class="fa fa-angle-right"></i></a>
+						<ul class="subMenu">
+							<li><a href="#">Men<i class="fa fa-angle-right"></i></a>
+								<ul class="subMenu">
+									<li><a href="#">Shirts</a></li>
+									<li><a href="#">Jeans</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Women<i class="fa fa-angle-right"></i></a>
+								<ul class="subMenu">
+									<li><a href="#">Shoes</a></li>
+									<li><a href="#">Accessories<i class="fa fa-angle-right"></i></a>
+
+										<ul class="subMenu">
+											<li><a href="#">Jewellery</a></li>
+											<li><a href="#">Watches</a></li>
+											<li><a href="#">Sunglasses</a></li>
+										</ul>
+
+									</li>
+								</ul>
+							</li>
+
+						</ul>
+					</li>
+					<li><a href="#">Furniture</a></li>
+				</ul>
+
+			</li>
+
+			<li><a href="#">О Minecraft <i class="fa fa-angle-down"></i></a>
+
+				<ul class="subMenu">
+					<li><a href="#">Electronic</a></li>
+					<li><a href="#">Fashion<i class="fa fa-angle-right"></i></a>
+						<ul class="subMenu">
+							<li><a href="#">Men<i class="fa fa-angle-right"></i></a>
+
+								<ul class="subMenu">
+									<li><a href="#">Shirts</a></li>
+									<li><a href="#">Jeans</a></li>
+								</ul>
+
+							</li>
+							<li><a href="#">Women<i class="fa fa-angle-right"></i></a>
+								<ul class="subMenu">
+									<li><a href="#">Shoes</a></li>
+									<li><a href="#">Accessories<i class="fa fa-angle-right"></i></a>
+
+										<ul class="subMenu">
+											<li><a href="#">Jewellery</a></li>
+											<li><a href="#">Watches</a></li>
+											<li><a href="#">Sunglasses</a></li>
+										</ul>
+
+									</li>
+								</ul>
+							</li>
+
+						</ul>
+					</li>
+					<li><a href="#">Furniture</a></li>
+				</ul>
+
+			</li>
+      <li><a href="#">Онлайн-игры</a></li>
+		</ul>
+	</nav>
+
+	<div class="header__right">
+		<form method="get" action="#" class="header__search search-block">
+			<input type="text" autocomplete="off" name="query" placeholder="Например, мод на зомби" value="" class="header__search__input search-block__input">
+			<button type="submit" class="header__search__button search-block__button">
+				<img src="../images/icon-search.svg" alt="">
+			</button>
+		</form>
+
+		<a href="#" class="btn btn-green">
+			Скачать Minecraft
+		</a>
+
+		<div class="switch-theme">
+      <input id="switchTheme" class="switch__input" name="switchTheme" type="checkbox">
+      <label class="switch__label" for="switchTheme"></label>
+    </div>
+	</div>
+
+	<svg class="header__round-outside" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M0 3.00635H35C11.6667 2.70165 0 13.3662 0 35V3.00635Z"/>
+	</svg>
+</header>
+
+<header class="header--mobile show-mobile">
+  <div class="show-mobile-top">
+    <nav class="header__menu header__menu--mob">
+      <ul>
+        <li><a href="#">Загрузки <i class="fa fa-angle-down"></i></a>
+          <ul class="subMenu">
+            <li><a href="#">Electronic</a></li>
+            <li><a href="#">Fashion<i class="fa fa-angle-right"></i></a>
+              <ul class="subMenu">
+                <li><a href="#">Men<i class="fa fa-angle-right"></i></a>
+                  <ul class="subMenu">
+                    <li><a href="#">Shirts</a></li>
+                    <li><a href="#">Jeans</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Women<i class="fa fa-angle-right"></i></a>
+                  <ul class="subMenu">
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Accessories<i class="fa fa-angle-right"></i></a>
+  
+                      <ul class="subMenu">
+                        <li><a href="#">Jewellery</a></li>
+                        <li><a href="#">Watches</a></li>
+                        <li><a href="#">Sunglasses</a></li>
+                      </ul>
+  
+                    </li>
+                  </ul>
+                </li>
+  
+              </ul>
+            </li>
+            <li><a href="#">Furniture</a></li>
+          </ul>
+  
+        </li>
+  
+        <li><a href="#">О Minecraft <i class="fa fa-angle-down"></i></a>
+  
+          <ul class="subMenu">
+            <li><a href="#">Electronic</a></li>
+            <li><a href="#">Fashion<i class="fa fa-angle-right"></i></a>
+              <ul class="subMenu">
+                <li><a href="#">Men<i class="fa fa-angle-right"></i></a>
+  
+                  <ul class="subMenu">
+                    <li><a href="#">Shirts</a></li>
+                    <li><a href="#">Jeans</a></li>
+                  </ul>
+  
+                </li>
+                <li><a href="#">Women<i class="fa fa-angle-right"></i></a>
+                  <ul class="subMenu">
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Accessories<i class="fa fa-angle-right"></i></a>
+  
+                      <ul class="subMenu">
+                        <li><a href="#">Jewellery</a></li>
+                        <li><a href="#">Watches</a></li>
+                        <li><a href="#">Sunglasses</a></li>
+                      </ul>
+  
+                    </li>
+                  </ul>
+                </li>
+  
+              </ul>
+            </li>
+            <li><a href="#">Furniture</a></li>
+          </ul>
+  
+        </li>
+        <li><a href="#">Онлайн-игры</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="btn btn-green mx-3">
+      Скачать Minecraft
+    </a>
+  </div>
+  <div class="show-mobile-bottom">
+    <ul>
+      <li>
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none">
+            <g clip-path="url(#clip0_40_769)">
+            <path d="M8.13035 9.47351C8.02683 9.20614 7.74168 8.93141 7.44627 8.91817C6.9072 8.89429 6.15021 8.88677 5.17527 8.8956C5.03513 8.89658 4.90086 8.88775 4.80076 8.98587C4.63572 9.14874 4.68064 9.38029 4.77244 9.57849C5.71238 11.6061 6.61961 13.5046 7.99461 15.1966C9.34324 16.8558 11.1636 17.6937 13.3022 17.4847C13.7383 17.442 13.8271 17.155 13.8833 16.7444C13.957 16.2072 14.0854 14.8282 15.02 15.7672C15.2479 15.9961 15.5724 16.3403 15.9936 16.7999C16.4687 17.3184 16.8662 17.5151 17.5688 17.5348C18.2342 17.5537 18.8996 17.5578 19.5649 17.547C20.062 17.5387 20.5298 17.1423 20.227 16.6174C19.6684 15.6494 18.7495 14.8204 17.9443 14.0065C17.5234 13.5812 17.9868 13.0621 18.2646 12.6844C18.664 12.1405 19.0618 11.5954 19.458 11.0493C19.8115 10.5626 20.1264 10.0725 20.2715 9.52011C20.3935 9.05553 20.083 8.91669 19.6855 8.91669C18.8288 8.91571 17.9715 8.91212 17.1137 8.9059C16.8126 8.90361 16.6129 9.03411 16.5146 9.29739C16.0901 10.4365 15.5166 11.4455 14.7939 12.3243C14.6196 12.5357 14.3183 12.9601 14.084 12.809C13.8266 12.6432 13.8227 11.8538 13.8315 11.5806C13.8527 10.9258 13.8677 10.2707 13.8764 9.61528C13.8901 8.60714 13.3911 8.57672 12.561 8.5517C12.1421 8.53862 11.723 8.53257 11.3037 8.53355C10.7715 8.53404 10.209 8.5311 9.89597 8.96036C9.67771 9.2601 10.2148 9.28708 10.3623 9.38324C10.7319 9.6246 10.727 9.9219 10.7553 10.3943C10.8003 11.1537 10.8506 12.08 10.6074 12.6932C10.438 13.1195 9.99656 12.6907 9.8325 12.4803C9.1183 11.5622 8.55092 10.56 8.13035 9.47351Z" stroke="white" stroke-width="2"></path>
+            <path d="M12.1743 0.0612793H12.8315C19.5518 0.290381 24.8423 5.64558 25 12.4029V12.8321C24.8203 19.6267 19.4878 25.0555 12.6792 25.1791H12.1929C5.45801 24.9676 0.216309 19.6316 0 12.8993V12.3592C0.204102 5.64116 5.43018 0.276645 12.1743 0.0612793ZM8.13037 9.47359C8.02686 9.20622 7.7417 8.93149 7.44629 8.91825C6.90723 8.89437 6.15023 8.88685 5.17529 8.89568C5.03516 8.89666 4.90088 8.88783 4.80078 8.98595C4.63574 9.14882 4.68066 9.38038 4.77246 9.57857C5.7124 11.6061 6.61963 13.5047 7.99463 15.1967C9.34326 16.8559 11.1636 17.6938 13.3022 17.4848C13.7383 17.4421 13.8271 17.1551 13.8833 16.7445C13.957 16.2073 14.0854 14.8283 15.02 15.7673C15.2479 15.9962 15.5724 16.3404 15.9937 16.7999C16.4688 17.3185 16.8662 17.5152 17.5688 17.5348C18.2342 17.5538 18.8996 17.5579 19.5649 17.5471C20.062 17.5388 20.5298 17.1424 20.2271 16.6174C19.6685 15.6495 18.7495 14.8204 17.9443 14.0066C17.5234 13.5812 17.9868 13.0622 18.2646 12.6844C18.6641 12.1406 19.0618 11.5955 19.458 11.0493C19.8115 10.5627 20.1265 10.0726 20.2715 9.52019C20.3936 9.05561 20.083 8.91678 19.6855 8.91678C18.8288 8.9158 17.9715 8.9122 17.1138 8.90598C16.8127 8.9037 16.613 9.03419 16.5146 9.29747C16.0902 10.4366 15.5166 11.4456 14.7939 12.3244C14.6196 12.5358 14.3184 12.9602 14.084 12.8091C13.8267 12.6432 13.8228 11.8539 13.8315 11.5806C13.8527 10.9259 13.8677 10.2708 13.8765 9.61537C13.8901 8.60722 13.3911 8.5768 12.561 8.55178C12.1421 8.5387 11.723 8.53265 11.3037 8.53363C10.7715 8.53412 10.209 8.53118 9.896 8.96044C9.67773 9.26018 10.2148 9.28717 10.3623 9.38332C10.7319 9.62469 10.7271 9.92198 10.7554 10.3944C10.8003 11.1538 10.8506 12.0801 10.6074 12.6933C10.438 13.1196 9.99658 12.6908 9.83252 12.4804C9.11833 11.5623 8.55094 10.5601 8.13037 9.47359Z" fill="#3E64FF"></path>
+            </g>
+            <defs>
+            <clipPath id="clip0_40_769">
+            <path d="M0 12.5613C0 5.65772 5.59644 0.0612793 12.5 0.0612793C19.4036 0.0612793 25 5.65772 25 12.5613V25.1791H0V12.5613Z" fill="white"></path>
+            </clipPath>
+            </defs>
+            </svg>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none">
+            <ellipse cx="12.5" cy="12.8558" rx="12.5" ry="12.5589" fill="#FF3458"></ellipse>
+            <g clip-path="url(#clip0_2020_405)">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9913 14.8043V10.5756C12.4855 11.282 13.6427 11.9643 15.0113 12.7C13.8825 13.329 12.4855 14.0348 10.9913 14.8043ZM19.3183 8.47246C19.0605 8.13129 18.6212 7.86571 18.1536 7.77779C16.7789 7.51552 8.20324 7.51478 6.82936 7.77779C6.45433 7.84843 6.12038 8.01917 5.8335 8.28444C4.62473 9.41165 5.0035 15.4565 5.29486 16.4357C5.41738 16.8595 5.57577 17.1652 5.77524 17.3658C6.03223 17.6311 6.3841 17.8138 6.78827 17.8957C7.92009 18.1309 13.751 18.2624 18.1296 17.931C18.5331 17.8604 18.8902 17.6718 19.1718 17.3953C20.2894 16.2726 20.2133 9.88823 19.3183 8.47246Z" fill="white"></path>
+            </g>
+            <defs>
+            <clipPath id="clip0_2020_405">
+            <rect width="15" height="15.0707" fill="white" transform="translate(5 5.32031)"></rect>
+            </clipPath>
+            </defs>
+            </svg>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none">
+            <g clip-path="url(#clip0_40_754)">
+            <path d="M12.1086 0.532471H12.2493C12.2509 0.766302 12.2505 0.942312 12.2481 1.0605C12.2269 2.06672 12.192 2.98244 12.1435 3.80767C12.0949 4.63163 12.0039 5.45068 11.8703 6.26481C11.6878 7.37759 11.3717 8.49055 10.77 9.45398C9.7999 11.0072 8.29938 11.8797 6.55508 12.291C5.64123 12.5066 4.69337 12.6225 3.77244 12.6922C2.98204 12.7522 2.16661 12.7939 1.32614 12.8173C0.884151 12.8296 0.442104 12.8405 0 12.8501V12.5654C0.143301 9.98079 0.982044 7.57153 2.53263 5.51024C4.81043 2.4824 8.33702 0.667947 12.1086 0.532471Z" fill="#363638"></path>
+            <path d="M13.0327 0.532471H13.1011C13.6736 0.581041 14.2637 0.63707 14.8278 0.746527C19.8557 1.72244 23.7784 5.63548 24.7677 10.68C24.8851 11.2791 24.9626 11.9155 25.0001 12.5892V12.8497C23.5287 12.8156 22.0577 12.764 20.5935 12.6076C19.1406 12.4522 17.6881 12.1588 16.4224 11.3973C15.896 11.0806 15.4077 10.6356 15.0008 10.1773C13.8723 8.90669 13.4483 7.12138 13.2496 5.47502C13.1708 4.82245 13.1149 4.1679 13.0817 3.51139C13.0377 2.63678 13.0027 1.76408 12.9978 0.888075C12.9971 0.76318 13.0088 0.644645 13.0327 0.532471Z" fill="#363638"></path>
+            <path d="M12.2597 25.6502H12.0028C11.2994 25.6087 10.5761 25.5293 9.88829 25.3759C7.82182 24.9155 5.86015 23.9584 4.27227 22.5417C2.15573 20.653 0.731872 18.1974 0.212189 15.3937C0.108943 14.8367 0.0382136 14.2596 0 13.6623V13.5837C1.89451 13.6177 3.80784 13.6507 5.68025 13.9584C6.41488 14.0792 7.15867 14.2646 7.85929 14.5454C8.86078 14.9471 9.69769 15.5658 10.37 16.4017C11.1544 17.3769 11.5665 18.5625 11.8023 19.7789C12.0499 21.0556 12.1452 22.3875 12.1958 23.6737C12.2217 24.3323 12.243 24.9911 12.2597 25.6502Z" fill="#363638"></path>
+            <path d="M24.9999 13.6116V13.6737C24.9468 14.3899 24.8617 15.0425 24.7444 15.6316C23.9269 19.7368 20.9488 23.271 17.0638 24.785C16.178 25.1302 15.2966 25.3693 14.4198 25.5023C14.0939 25.5517 13.6536 25.601 13.0988 25.6503H13.0353C13.0132 25.5618 13.002 25.4632 13.0016 25.3544C13.0007 25.0674 13.0035 24.8115 13.0099 24.5866C13.0484 23.2374 13.122 21.8883 13.3088 20.5507C13.4312 19.6742 13.6168 18.8256 13.9398 18.0109C14.346 16.9864 14.9729 16.1307 15.8204 15.4437C16.6399 14.7795 17.6467 14.3787 18.6634 14.1398C20.1655 13.7872 21.6874 13.6897 23.268 13.6276C23.9031 13.6026 24.4803 13.5973 24.9999 13.6116Z" fill="#363638"></path>
+            </g>
+            <defs>
+            <clipPath id="clip0_40_754">
+            <path d="M0 13.0325C0 6.12892 5.59644 0.532471 12.5 0.532471C19.4036 0.532471 25 6.12891 25 13.0325V25.6503H0V13.0325Z" fill="white"></path>
+            </clipPath>
+            </defs>
+            </svg>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</header>
+	<aside class="hide-mobile sidebar-left">
+	<div class="sidebar-left__wrapper">
+    <nav class="sidebar-left__menu">
+
+      <a href="#" class="sidebar-left__menu__item d-lg-none" data-menu-tooltip="Поиск">
+        <svg class="sidebar-left__menu__icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4334 0.5C5.39507 0.5 0.5 5.39507 0.5 11.4334C0.5 17.4717 5.39507 22.3668 11.4334 22.3668C14.038 22.3668 16.4299 21.456 18.308 19.9356L22.5353 24.1629C22.9848 24.6124 23.7135 24.6124 24.1629 24.1629C24.6124 23.7135 24.6124 22.9848 24.1629 22.5353L19.9356 18.308C21.456 16.4299 22.3668 14.038 22.3668 11.4334C22.3668 5.39507 17.4717 0.5 11.4334 0.5Z" fill="#A4E6B4"/>
+          </svg>
+      </a>
+      <a href="#" class="sidebar-left__menu__item" data-menu-tooltip="Главная">
+        <img class="sidebar-left__menu__icon" src="../images/menu-icon-home.svg" alt="">
+      </a>
+      <a href="#" class="sidebar-left__menu__item" data-menu-tooltip="Лучшее">
+        <img class="sidebar-left__menu__icon" src="../images/menu-icon-star.svg" alt="">
+      </a>
+      <a href="#" class="sidebar-left__menu__item" data-menu-tooltip="Контакты">
+        <img class="sidebar-left__menu__icon" src="../images/menu-icon-question.svg" alt="">
+      </a>
+    </nav>
+    <div class="sidebar-left__socials">
+      <ul>
+        <li>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none">
+              <g clip-path="url(#clip0_40_769)">
+              <path d="M8.13035 9.47351C8.02683 9.20614 7.74168 8.93141 7.44627 8.91817C6.9072 8.89429 6.15021 8.88677 5.17527 8.8956C5.03513 8.89658 4.90086 8.88775 4.80076 8.98587C4.63572 9.14874 4.68064 9.38029 4.77244 9.57849C5.71238 11.6061 6.61961 13.5046 7.99461 15.1966C9.34324 16.8558 11.1636 17.6937 13.3022 17.4847C13.7383 17.442 13.8271 17.155 13.8833 16.7444C13.957 16.2072 14.0854 14.8282 15.02 15.7672C15.2479 15.9961 15.5724 16.3403 15.9936 16.7999C16.4687 17.3184 16.8662 17.5151 17.5688 17.5348C18.2342 17.5537 18.8996 17.5578 19.5649 17.547C20.062 17.5387 20.5298 17.1423 20.227 16.6174C19.6684 15.6494 18.7495 14.8204 17.9443 14.0065C17.5234 13.5812 17.9868 13.0621 18.2646 12.6844C18.664 12.1405 19.0618 11.5954 19.458 11.0493C19.8115 10.5626 20.1264 10.0725 20.2715 9.52011C20.3935 9.05553 20.083 8.91669 19.6855 8.91669C18.8288 8.91571 17.9715 8.91212 17.1137 8.9059C16.8126 8.90361 16.6129 9.03411 16.5146 9.29739C16.0901 10.4365 15.5166 11.4455 14.7939 12.3243C14.6196 12.5357 14.3183 12.9601 14.084 12.809C13.8266 12.6432 13.8227 11.8538 13.8315 11.5806C13.8527 10.9258 13.8677 10.2707 13.8764 9.61528C13.8901 8.60714 13.3911 8.57672 12.561 8.5517C12.1421 8.53862 11.723 8.53257 11.3037 8.53355C10.7715 8.53404 10.209 8.5311 9.89597 8.96036C9.67771 9.2601 10.2148 9.28708 10.3623 9.38324C10.7319 9.6246 10.727 9.9219 10.7553 10.3943C10.8003 11.1537 10.8506 12.08 10.6074 12.6932C10.438 13.1195 9.99656 12.6907 9.8325 12.4803C9.1183 11.5622 8.55092 10.56 8.13035 9.47351Z" stroke="white" stroke-width="2"/>
+              <path d="M12.1743 0.0612793H12.8315C19.5518 0.290381 24.8423 5.64558 25 12.4029V12.8321C24.8203 19.6267 19.4878 25.0555 12.6792 25.1791H12.1929C5.45801 24.9676 0.216309 19.6316 0 12.8993V12.3592C0.204102 5.64116 5.43018 0.276645 12.1743 0.0612793ZM8.13037 9.47359C8.02686 9.20622 7.7417 8.93149 7.44629 8.91825C6.90723 8.89437 6.15023 8.88685 5.17529 8.89568C5.03516 8.89666 4.90088 8.88783 4.80078 8.98595C4.63574 9.14882 4.68066 9.38038 4.77246 9.57857C5.7124 11.6061 6.61963 13.5047 7.99463 15.1967C9.34326 16.8559 11.1636 17.6938 13.3022 17.4848C13.7383 17.4421 13.8271 17.1551 13.8833 16.7445C13.957 16.2073 14.0854 14.8283 15.02 15.7673C15.2479 15.9962 15.5724 16.3404 15.9937 16.7999C16.4688 17.3185 16.8662 17.5152 17.5688 17.5348C18.2342 17.5538 18.8996 17.5579 19.5649 17.5471C20.062 17.5388 20.5298 17.1424 20.2271 16.6174C19.6685 15.6495 18.7495 14.8204 17.9443 14.0066C17.5234 13.5812 17.9868 13.0622 18.2646 12.6844C18.6641 12.1406 19.0618 11.5955 19.458 11.0493C19.8115 10.5627 20.1265 10.0726 20.2715 9.52019C20.3936 9.05561 20.083 8.91678 19.6855 8.91678C18.8288 8.9158 17.9715 8.9122 17.1138 8.90598C16.8127 8.9037 16.613 9.03419 16.5146 9.29747C16.0902 10.4366 15.5166 11.4456 14.7939 12.3244C14.6196 12.5358 14.3184 12.9602 14.084 12.8091C13.8267 12.6432 13.8228 11.8539 13.8315 11.5806C13.8527 10.9259 13.8677 10.2708 13.8765 9.61537C13.8901 8.60722 13.3911 8.5768 12.561 8.55178C12.1421 8.5387 11.723 8.53265 11.3037 8.53363C10.7715 8.53412 10.209 8.53118 9.896 8.96044C9.67773 9.26018 10.2148 9.28717 10.3623 9.38332C10.7319 9.62469 10.7271 9.92198 10.7554 10.3944C10.8003 11.1538 10.8506 12.0801 10.6074 12.6933C10.438 13.1196 9.99658 12.6908 9.83252 12.4804C9.11833 11.5623 8.55094 10.5601 8.13037 9.47359Z" fill="#3E64FF"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_40_769">
+              <path d="M0 12.5613C0 5.65772 5.59644 0.0612793 12.5 0.0612793C19.4036 0.0612793 25 5.65772 25 12.5613V25.1791H0V12.5613Z" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none">
+              <ellipse cx="12.5" cy="12.8558" rx="12.5" ry="12.5589" fill="#FF3458"/>
+              <g clip-path="url(#clip0_2020_405)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9913 14.8043V10.5756C12.4855 11.282 13.6427 11.9643 15.0113 12.7C13.8825 13.329 12.4855 14.0348 10.9913 14.8043ZM19.3183 8.47246C19.0605 8.13129 18.6212 7.86571 18.1536 7.77779C16.7789 7.51552 8.20324 7.51478 6.82936 7.77779C6.45433 7.84843 6.12038 8.01917 5.8335 8.28444C4.62473 9.41165 5.0035 15.4565 5.29486 16.4357C5.41738 16.8595 5.57577 17.1652 5.77524 17.3658C6.03223 17.6311 6.3841 17.8138 6.78827 17.8957C7.92009 18.1309 13.751 18.2624 18.1296 17.931C18.5331 17.8604 18.8902 17.6718 19.1718 17.3953C20.2894 16.2726 20.2133 9.88823 19.3183 8.47246Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_2020_405">
+              <rect width="15" height="15.0707" fill="white" transform="translate(5 5.32031)"/>
+              </clipPath>
+              </defs>
+              </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none">
+              <g clip-path="url(#clip0_40_754)">
+              <path d="M12.1086 0.532471H12.2493C12.2509 0.766302 12.2505 0.942312 12.2481 1.0605C12.2269 2.06672 12.192 2.98244 12.1435 3.80767C12.0949 4.63163 12.0039 5.45068 11.8703 6.26481C11.6878 7.37759 11.3717 8.49055 10.77 9.45398C9.7999 11.0072 8.29938 11.8797 6.55508 12.291C5.64123 12.5066 4.69337 12.6225 3.77244 12.6922C2.98204 12.7522 2.16661 12.7939 1.32614 12.8173C0.884151 12.8296 0.442104 12.8405 0 12.8501V12.5654C0.143301 9.98079 0.982044 7.57153 2.53263 5.51024C4.81043 2.4824 8.33702 0.667947 12.1086 0.532471Z" fill="#363638"/>
+              <path d="M13.0327 0.532471H13.1011C13.6736 0.581041 14.2637 0.63707 14.8278 0.746527C19.8557 1.72244 23.7784 5.63548 24.7677 10.68C24.8851 11.2791 24.9626 11.9155 25.0001 12.5892V12.8497C23.5287 12.8156 22.0577 12.764 20.5935 12.6076C19.1406 12.4522 17.6881 12.1588 16.4224 11.3973C15.896 11.0806 15.4077 10.6356 15.0008 10.1773C13.8723 8.90669 13.4483 7.12138 13.2496 5.47502C13.1708 4.82245 13.1149 4.1679 13.0817 3.51139C13.0377 2.63678 13.0027 1.76408 12.9978 0.888075C12.9971 0.76318 13.0088 0.644645 13.0327 0.532471Z" fill="#363638"/>
+              <path d="M12.2597 25.6502H12.0028C11.2994 25.6087 10.5761 25.5293 9.88829 25.3759C7.82182 24.9155 5.86015 23.9584 4.27227 22.5417C2.15573 20.653 0.731872 18.1974 0.212189 15.3937C0.108943 14.8367 0.0382136 14.2596 0 13.6623V13.5837C1.89451 13.6177 3.80784 13.6507 5.68025 13.9584C6.41488 14.0792 7.15867 14.2646 7.85929 14.5454C8.86078 14.9471 9.69769 15.5658 10.37 16.4017C11.1544 17.3769 11.5665 18.5625 11.8023 19.7789C12.0499 21.0556 12.1452 22.3875 12.1958 23.6737C12.2217 24.3323 12.243 24.9911 12.2597 25.6502Z" fill="#363638"/>
+              <path d="M24.9999 13.6116V13.6737C24.9468 14.3899 24.8617 15.0425 24.7444 15.6316C23.9269 19.7368 20.9488 23.271 17.0638 24.785C16.178 25.1302 15.2966 25.3693 14.4198 25.5023C14.0939 25.5517 13.6536 25.601 13.0988 25.6503H13.0353C13.0132 25.5618 13.002 25.4632 13.0016 25.3544C13.0007 25.0674 13.0035 24.8115 13.0099 24.5866C13.0484 23.2374 13.122 21.8883 13.3088 20.5507C13.4312 19.6742 13.6168 18.8256 13.9398 18.0109C14.346 16.9864 14.9729 16.1307 15.8204 15.4437C16.6399 14.7795 17.6467 14.3787 18.6634 14.1398C20.1655 13.7872 21.6874 13.6897 23.268 13.6276C23.9031 13.6026 24.4803 13.5973 24.9999 13.6116Z" fill="#363638"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_40_754">
+              <path d="M0 13.0325C0 6.12892 5.59644 0.532471 12.5 0.532471C19.4036 0.532471 25 6.12891 25 13.0325V25.6503H0V13.0325Z" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+	<div class="page-wrapper">
+		<main class="main">
+
+			<section class="jumbotron">
+				<div class="jumbotron__title">
+					<span class="jumbotron__title--green">MCBASE1</span> - Моды для Minecraft
+				</div>
+				<div class="jumbotron__description">
+					Добро пожаловать в нашу базу модификаций! Широкий выбор модов
+					и дополнений для Minecraft, которые помогут улучшить и разнообразить ваш игровой опыт
+				</div>
+				<div class="jumbotron__links">
+					<a href="#" class="jumbotron__links__item">Скачать Minecraft</a>
+					<a href="#" class="jumbotron__links__item">Моды</a>
+					<a href="#" class="jumbotron__links__item">Плагины</a>
+					<a href="#" class="jumbotron__links__item">Текстуры</a>
+					<a href="#" class="jumbotron__links__item">Карты</a>
+					<a href="#" class="jumbotron__links__item">Сервера</a>
+					<a href="#" class="jumbotron__links__item">Уроки</a>
+					<a href="#" class="jumbotron__links__item">Скачать клиент</a>
+					<a href="#" class="jumbotron__links__item">Команды</a>
+					<a href="#" class="jumbotron__links__item">Оформление</a>
+				</div>
+			</section>
+
+			<section class="page-section">
+				<div class="page-section__header">
+					<h2 class="page-section__title">
+						<span class="page-section__title__text">
+							Последние новости
+						</span>
+					</h2>
+				</div>
+				<div class="page-section__row">
+					<div class="">
+						<div class="posts-list posts-list--big">
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-item.webp" type="image/webp"><img src="images/post-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__content">
+									<div class="posts-list-item__title">
+										Добро пожаловать в нашу базу модификаций!
+									</div>
+									<div class="posts-list-item__description">
+										Добро пожаловать в нашу базу модификаций! Широкий выбор модов
+									</div>
+									<div class="posts-list-item__info">
+										<div class="posts-list-item__info-item">
+											<span class="fa fa-calendar"></span>
+											<span class="posts-list-item__info-item__text">12.01.2021</span>
+										</div>
+										<div class="posts-list-item__info-item">
+											<span class="fa fa-comment"></span>
+											<span class="posts-list-item__info-item__text">123</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="">
+						<div class="posts-list">
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-item.webp" type="image/webp"><img src="images/post-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__content">
+									<div class="posts-list-item__title">
+										Добро пожаловать в нашу базу модификаций!
+									</div>
+									<div class="posts-list-item__description">
+										ваиваи
+									</div>
+									<div class="posts-list-item__info">
+										<div class="posts-list-item__info-item">
+											<span class="fa fa-calendar"></span>
+											<span class="posts-list-item__info-item__text">12.01.2021</span>
+										</div>
+										<div class="posts-list-item__info-item">
+											<span class="fa fa-comment"></span>
+											<span class="posts-list-item__info-item__text">123</span>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-item.webp" type="image/webp"><img src="images/post-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__content">
+									<div class="posts-list-item__title">
+										Добро пожаловать в нашу базу модификаций!
+									</div>
+									<div class="posts-list-item__description">
+										ваиваи
+									</div>
+									<div class="posts-list-item__info">
+										<div class="posts-list-item__info-item">
+											<span class="fa fa-calendar"></span>
+											<span class="posts-list-item__info-item__text">12.01.2021</span>
+										</div>
+										<div class="posts-list-item__info-item">
+											<span class="fa fa-comment"></span>
+											<span class="posts-list-item__info-item__text">123</span>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-item.webp" type="image/webp"><img src="images/post-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__content">
+									<div class="posts-list-item__title">
+										Добро пожаловать в нашу базу модификаций!
+									</div>
+									<div class="posts-list-item__description">
+										Добро пожаловать в нашу базу модификаций! Широкий выбор модов
+									</div>
+									<div class="posts-list-item__info">
+										<div class="posts-list-item__info-item">
+											<span class="fa fa-calendar"></span>
+											<span class="posts-list-item__info-item__text">12.01.2021</span>
+										</div>
+										<div class="posts-list-item__info-item">
+											<span class="fa fa-comment"></span>
+											<span class="posts-list-item__info-item__text">123</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page-section">
+				<div class="page-section__header">
+					<h2 class="page-section__title">Новые игры</h2>
+				</div>
+				<div class="new-game-items">
+					<div class="new-game-item">
+						<a href="#" class="post-card-item">
+							<div class="post-card-item__image">
+								<picture><source srcset="images/post-item.webp" type="image/webp"><img src="images/post-item.png" alt=""></picture>
+							</div>
+							<div class="post-card-item__title">
+								Бумажный Майнкрафт 2Д
+							</div>
+						</a>
+					</div>
+					<div class="new-game-item">
+						<a href="#" class="post-card-item">
+							<div class="post-card-item__image">
+								<picture><source srcset="images/post-item.webp" type="image/webp"><img src="images/post-item.png" alt=""></picture>
+							</div>
+							<div class="post-card-item__title">
+								Бумажный Майнкрафт 2Д
+							</div>
+						</a>
+					</div>
+					<div class="new-game-item">
+						<a href="#" class="post-card-item">
+							<div class="post-card-item__image">
+								<picture><source srcset="images/post-item.webp" type="image/webp"><img src="images/post-item.png" alt=""></picture>
+							</div>
+							<div class="post-card-item__title">
+								Бумажный Майнкрафт 2Д
+							</div>
+						</a>
+					</div>
+					<div class="new-game-item">
+						<a href="#" class="post-card-item">
+							<div class="post-card-item__image">
+								<picture><source srcset="images/post-item.webp" type="image/webp"><img src="images/post-item.png" alt=""></picture>
+							</div>
+							<div class="post-card-item__title">
+								Бумажный Майнкрафт 2Д
+							</div>
+						</a>
+					</div>
+					<div class="new-game-item">
+						<a href="#" class="post-card-item">
+							<div class="post-card-item__image">
+								<picture><source srcset="images/post-item.webp" type="image/webp"><img src="images/post-item.png" alt=""></picture>
+							</div>
+							<div class="post-card-item__title">
+								Бумажный Майнкрафт 2Д
+							</div>
+						</a>
+					</div>
+					<div class="new-game-item">
+						<a href="#" class="post-card-item">
+							<div class="post-card-item__image">
+								<picture><source srcset="images/post-item.webp" type="image/webp"><img src="images/post-item.png" alt=""></picture>
+							</div>
+							<div class="post-card-item__title">
+								Бумажный Майнкрафт 2Д
+							</div>
+						</a>
+					</div>
+					<div class="new-game-item">
+						<a href="#" class="post-card-item">
+							<div class="post-card-item__image">
+								<picture><source srcset="images/post-item.webp" type="image/webp"><img src="images/post-item.png" alt=""></picture>
+							</div>
+							<div class="post-card-item__title">
+								Бумажный Майнкрафт 2Д
+							</div>
+						</a>
+					</div>
+					<div class="new-game-item">
+						<a href="#" class="post-card-item">
+							<div class="post-card-item__image">
+								<picture><source srcset="images/post-item.webp" type="image/webp"><img src="images/post-item.png" alt=""></picture>
+							</div>
+							<div class="post-card-item__title">
+								Бумажный Майнкрафт 2Д
+							</div>
+						</a>
+					</div>
+				</div>
+        <div class="new-game-footer">
+          <div class="more-games">
+            <a href="#" class="btn btn--outlined">
+              Смотреть все игры
+						</a>
+          </div>
+        </div>
+			</section>
+
+			<section class="page-section">
+				<div class="page-section__header">
+					<h2 class="page-section__title">
+						Новые моды для Minecraft
+					</h2>
+					<div class="d-md-block d-none page-section__panel">
+						<a href="#" class="btn btn--outlined">
+							Все моды
+						</a>
+					</div>
+				</div>
+				<div class="posts-slider">
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="post-detailed-item">
+									<div class="post-detailed-item__background">
+										<img src="images/post-item.png" class="post-detailed-item__background__image" alt="">
+										<a href="#" class="post-detailed-item__image-category">
+											Прочее
+										</a>
+									</div>
+
+									<a href="#" class="post-detailed-item__header">
+										<div class="post-detailed-item__header__icon">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image" alt="">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image--bg" alt="">
+										</div>
+										<div class="post-detailed-item__header__content">
+											<div class="post-detailed-item__header__content__title">
+												Плагин Marriage - свадьба
+											</div>
+											<div class="post-detailed-item__header__content__info">
+												<div class="post-detailed-item__header__content__info-item">
+													<span class="fa fa-eye"></span>
+													<span class="post-detailed-item__header__content__info-item__text">
+														123
+													</span>
+												</div>
+												<div class="post-detailed-item__header__content__info-item">
+													[Rating widget]
+												</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="#" class="post-detailed-item__content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut
+										labore et dolore magna aliqua.
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="post-detailed-item">
+									<div class="post-detailed-item__background">
+										<img src="images/post-item.png" class="post-detailed-item__background__image" alt="">
+										<a href="#" class="post-detailed-item__image-category">
+											Прочее
+										</a>
+									</div>
+
+									<a href="#" class="post-detailed-item__header">
+										<div class="post-detailed-item__header__icon">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image" alt="">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image--bg" alt="">
+										</div>
+										<div class="post-detailed-item__header__content">
+											<div class="post-detailed-item__header__content__title">
+												Плагин Marriage - свадьба
+											</div>
+											<div class="post-detailed-item__header__content__info">
+												<div class="post-detailed-item__header__content__info-item">
+													<span class="fa fa-eye"></span>
+													<span class="post-detailed-item__header__content__info-item__text">
+														123
+													</span>
+												</div>
+												<div class="post-detailed-item__header__content__info-item">
+													[Rating widget]
+												</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="#" class="post-detailed-item__content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut
+										labore et dolore magna aliqua.
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="post-detailed-item">
+									<div class="post-detailed-item__background">
+										<img src="images/post-item.png" class="post-detailed-item__background__image" alt="">
+										<a href="#" class="post-detailed-item__image-category">
+											Прочее
+										</a>
+									</div>
+
+									<a href="#" class="post-detailed-item__header">
+										<div class="post-detailed-item__header__icon">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image" alt="">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image--bg" alt="">
+										</div>
+										<div class="post-detailed-item__header__content">
+											<div class="post-detailed-item__header__content__title">
+												Плагин Marriage - свадьба
+											</div>
+											<div class="post-detailed-item__header__content__info">
+												<div class="post-detailed-item__header__content__info-item">
+													<span class="fa fa-eye"></span>
+													<span class="post-detailed-item__header__content__info-item__text">
+														123
+													</span>
+												</div>
+												<div class="post-detailed-item__header__content__info-item">
+													[Rating widget]
+												</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="#" class="post-detailed-item__content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut
+										labore et dolore magna aliqua.
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="post-detailed-item">
+									<div class="post-detailed-item__background">
+										<img src="images/post-item.png" class="post-detailed-item__background__image" alt="">
+										<a href="#" class="post-detailed-item__image-category">
+											Прочее
+										</a>
+									</div>
+
+									<a href="#" class="post-detailed-item__header">
+										<div class="post-detailed-item__header__icon">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image" alt="">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image--bg" alt="">
+										</div>
+										<div class="post-detailed-item__header__content">
+											<div class="post-detailed-item__header__content__title">
+												Плагин Marriage - свадьба
+											</div>
+											<div class="post-detailed-item__header__content__info">
+												<div class="post-detailed-item__header__content__info-item">
+													<span class="fa fa-eye"></span>
+													<span class="post-detailed-item__header__content__info-item__text">
+														123
+													</span>
+												</div>
+												<div class="post-detailed-item__header__content__info-item">
+													[Rating widget]
+												</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="#" class="post-detailed-item__content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut
+										labore et dolore magna aliqua.
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="btn btn-green btn--circle btn--icon swiper-button-prev">
+						<i class="fa fa-angle-left"></i>
+					</div>
+					<div class="btn btn-green btn--circle btn--icon swiper-button-next">
+						<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+        <div class="d-md-none mt-4 posts-slider__footer">
+          <a href="#" class="btn btn--outlined w-100">
+            Все моды
+          </a>
+        </div>
+			</section>
+
+			<section class="page-section">
+				<div class="page-section__header">
+					<h2 class="page-section__title">
+						Новые плагины для Minecraft
+					</h2>
+					<div class="d-md-block d-none page-section__panel">
+						<a href="#" class="btn btn--outlined">
+							Все плагины
+						</a>
+					</div>
+				</div>
+				<div class="posts-slider">
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="post-detailed-item">
+									<div class="post-detailed-item__background">
+										<img src="images/post-item.png" class="post-detailed-item__background__image" alt="">
+										<a href="#" class="post-detailed-item__image-category">
+											Прочее
+										</a>
+									</div>
+
+									<a href="#" class="post-detailed-item__header">
+										<div class="post-detailed-item__header__icon">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image" alt="">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image--bg" alt="">
+										</div>
+										<div class="post-detailed-item__header__content">
+											<div class="post-detailed-item__header__content__title">
+												Плагин Marriage - свадьба
+											</div>
+											<div class="post-detailed-item__header__content__info">
+												<div class="post-detailed-item__header__content__info-item">
+													<span class="fa fa-eye"></span>
+													<span class="post-detailed-item__header__content__info-item__text">
+														123
+													</span>
+												</div>
+												<div class="post-detailed-item__header__content__info-item">
+													[Rating widget]
+												</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="#" class="post-detailed-item__content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut
+										labore et dolore magna aliqua.
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="post-detailed-item">
+									<div class="post-detailed-item__background">
+										<img src="images/post-item.png" class="post-detailed-item__background__image" alt="">
+										<a href="#" class="post-detailed-item__image-category">
+											Прочее
+										</a>
+									</div>
+
+									<a href="#" class="post-detailed-item__header">
+										<div class="post-detailed-item__header__icon">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image" alt="">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image--bg" alt="">
+										</div>
+										<div class="post-detailed-item__header__content">
+											<div class="post-detailed-item__header__content__title">
+												Плагин Marriage - свадьба
+											</div>
+											<div class="post-detailed-item__header__content__info">
+												<div class="post-detailed-item__header__content__info-item">
+													<span class="fa fa-eye"></span>
+													<span class="post-detailed-item__header__content__info-item__text">
+														123
+													</span>
+												</div>
+												<div class="post-detailed-item__header__content__info-item">
+													[Rating widget]
+												</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="#" class="post-detailed-item__content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut
+										labore et dolore magna aliqua.
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="post-detailed-item">
+									<div class="post-detailed-item__background">
+										<img src="images/post-item.png" class="post-detailed-item__background__image" alt="">
+										<a href="#" class="post-detailed-item__image-category">
+											Прочее
+										</a>
+									</div>
+
+									<a href="#" class="post-detailed-item__header">
+										<div class="post-detailed-item__header__icon">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image" alt="">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image--bg" alt="">
+										</div>
+										<div class="post-detailed-item__header__content">
+											<div class="post-detailed-item__header__content__title">
+												Плагин Marriage - свадьба
+											</div>
+											<div class="post-detailed-item__header__content__info">
+												<div class="post-detailed-item__header__content__info-item">
+													<span class="fa fa-eye"></span>
+													<span class="post-detailed-item__header__content__info-item__text">
+														123
+													</span>
+												</div>
+												<div class="post-detailed-item__header__content__info-item">
+													[Rating widget]
+												</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="#" class="post-detailed-item__content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut
+										labore et dolore magna aliqua.
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="post-detailed-item">
+									<div class="post-detailed-item__background">
+										<img src="images/post-item.png" class="post-detailed-item__background__image" alt="">
+										<a href="#" class="post-detailed-item__image-category">
+											Прочее
+										</a>
+									</div>
+
+									<a href="#" class="post-detailed-item__header">
+										<div class="post-detailed-item__header__icon">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image" alt="">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image--bg" alt="">
+										</div>
+										<div class="post-detailed-item__header__content">
+											<div class="post-detailed-item__header__content__title">
+												Плагин Marriage - свадьба
+											</div>
+											<div class="post-detailed-item__header__content__info">
+												<div class="post-detailed-item__header__content__info-item">
+													<span class="fa fa-eye"></span>
+													<span class="post-detailed-item__header__content__info-item__text">
+														123
+													</span>
+												</div>
+												<div class="post-detailed-item__header__content__info-item">
+													[Rating widget]
+												</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="#" class="post-detailed-item__content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut
+										labore et dolore magna aliqua.
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="btn btn-green btn--circle btn--icon swiper-button-prev">
+						<i class="fa fa-angle-left"></i>
+					</div>
+					<div class="btn btn-green btn--circle btn--icon swiper-button-next">
+						<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+        <div class="d-md-none mt-4 posts-slider__footer">
+          <a href="#" class="btn btn--outlined w-100">
+            Все плагины
+          </a>
+        </div>
+			</section>
+
+			<section class="page-section">
+				<div class="page-section__header">
+					<h2 class="page-section__title">
+						Новые ресурс-паки для Minecraft
+					</h2>
+					<div class="d-md-block d-none page-section__panel">
+						<a href="#" class="btn btn--outlined">
+							Все ресурс-паки
+						</a>
+					</div>
+				</div>
+				<div class="posts-slider">
+
+        
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="post-detailed-item">
+									<div class="post-detailed-item__background">
+										<img src="images/post-item.png" class="post-detailed-item__background__image" alt="">
+										<a href="#" class="post-detailed-item__image-category">
+											Прочее
+										</a>
+									</div>
+
+									<a href="#" class="post-detailed-item__header">
+										<div class="post-detailed-item__header__icon">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image" alt="">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image--bg" alt="">
+										</div>
+										<div class="post-detailed-item__header__content">
+											<div class="post-detailed-item__header__content__title">
+												Плагин Marriage - свадьба
+											</div>
+											<div class="post-detailed-item__header__content__info">
+												<div class="post-detailed-item__header__content__info-item">
+													<span class="fa fa-eye"></span>
+													<span class="post-detailed-item__header__content__info-item__text">
+														123
+													</span>
+												</div>
+												<div class="post-detailed-item__header__content__info-item">
+													[Rating widget]
+												</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="#" class="post-detailed-item__content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut
+										labore et dolore magna aliqua.
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="post-detailed-item">
+									<div class="post-detailed-item__background">
+										<img src="images/post-item.png" class="post-detailed-item__background__image" alt="">
+										<a href="#" class="post-detailed-item__image-category">
+											Прочее
+										</a>
+									</div>
+
+									<a href="#" class="post-detailed-item__header">
+										<div class="post-detailed-item__header__icon">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image" alt="">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image--bg" alt="">
+										</div>
+										<div class="post-detailed-item__header__content">
+											<div class="post-detailed-item__header__content__title">
+												Плагин Marriage - свадьба
+											</div>
+											<div class="post-detailed-item__header__content__info">
+												<div class="post-detailed-item__header__content__info-item">
+													<span class="fa fa-eye"></span>
+													<span class="post-detailed-item__header__content__info-item__text">
+														123
+													</span>
+												</div>
+												<div class="post-detailed-item__header__content__info-item">
+													[Rating widget]
+												</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="#" class="post-detailed-item__content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut
+										labore et dolore magna aliqua.
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="post-detailed-item">
+									<div class="post-detailed-item__background">
+										<img src="images/post-item.png" class="post-detailed-item__background__image" alt="">
+										<a href="#" class="post-detailed-item__image-category">
+											Прочее
+										</a>
+									</div>
+
+									<a href="#" class="post-detailed-item__header">
+										<div class="post-detailed-item__header__icon">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image" alt="">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image--bg" alt="">
+										</div>
+										<div class="post-detailed-item__header__content">
+											<div class="post-detailed-item__header__content__title">
+												Плагин Marriage - свадьба
+											</div>
+											<div class="post-detailed-item__header__content__info">
+												<div class="post-detailed-item__header__content__info-item">
+													<span class="fa fa-eye"></span>
+													<span class="post-detailed-item__header__content__info-item__text">
+														123
+													</span>
+												</div>
+												<div class="post-detailed-item__header__content__info-item">
+													[Rating widget]
+												</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="#" class="post-detailed-item__content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut
+										labore et dolore magna aliqua.
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="post-detailed-item">
+									<div class="post-detailed-item__background">
+										<img src="images/post-item.png" class="post-detailed-item__background__image" alt="">
+										<a href="#" class="post-detailed-item__image-category">
+											Прочее
+										</a>
+									</div>
+
+									<a href="#" class="post-detailed-item__header">
+										<div class="post-detailed-item__header__icon">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image" alt="">
+											<img src="images/file-icon.png" class="post-detailed-item__header__icon__image--bg" alt="">
+										</div>
+										<div class="post-detailed-item__header__content">
+											<div class="post-detailed-item__header__content__title">
+												Плагин Marriage - свадьба
+											</div>
+											<div class="post-detailed-item__header__content__info">
+												<div class="post-detailed-item__header__content__info-item">
+													<span class="fa fa-eye"></span>
+													<span class="post-detailed-item__header__content__info-item__text">
+														123
+													</span>
+												</div>
+												<div class="post-detailed-item__header__content__info-item">
+													[Rating widget]
+												</div>
+											</div>
+										</div>
+									</a>
+
+									<a href="#" class="post-detailed-item__content">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut
+										labore et dolore magna aliqua.
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="btn btn-green btn--circle btn--icon swiper-button-prev">
+						<i class="fa fa-angle-left"></i>
+					</div>
+					<div class="btn btn-green btn--circle btn--icon swiper-button-next">
+						<i class="fa fa-angle-right"></i>
+					</div>
+				</div>
+        <div class="d-md-none mt-4 posts-slider__footer">
+          <a href="#" class="btn btn--outlined w-100">
+            Все ресурс-паки
+          </a>
+        </div>
+			</section>
+
+			<section class="page-section">
+				<div class="seo-description">
+					<div class="seo-description__content">
+						<h1>Все для Minecraft и Minecraft: Pocket Edition</h1>
+						<div class="seo-description__content__spoiler">
+							<p><strong>Minecraft</strong> – это инди-игра, которая сделана в жанре «песочницы».
+								Разработана
+								игра Маркусом Перссоном, который владеет компанией Mojang AB. Впервые эта захватывающая
+								игра
+								была опубликована в 2009 году, а только в 2011 году была выпущена стабильная версия
+								данной
+								игры для ПК Microsoft Windows. Через несколько лет Minecraft был портирован на macOS и
+								Linux
+								для ПК, а также для мобильных устройств: Android, Windows Phone, iOS; игровых приставок:
+								VR,
+								PS4, Vita, Nintendo 3DS, Xbox One, Switch и Wii U. А сейчас давайте расскажем о главном
+								–
+								игровом процессе игры.</p>
+							<h3><strong>Интересные факты об игре</strong></h3>
+							<p>Непосредственно каждый человек, который связан с игровым миром, знает, либо слышал о
+								такой
+								популярной игре как Minecraft. По состоянию на 2019 год ежемесячная аудитория Minecraft
+								достигла 112 миллионов человек. Это грандиозная цифра, по сравнению с тем же 2018 годом
+								(в
+								котором аудитория достигла 91 млн человек). Для тех, кто вдруг не слышал о такой игре,
+								вкратце расскажем что она из себя представляет и какие особенности она имеет.</p>
+							<h3><strong>Игровой процесс</strong></h3>
+							<p>Вы только зашли в игру, и тут вопрос, что делать дальше? Для начала нужно найти дерево,
+								чтобы
+								скрафтить верстак, потому что без него ничего стоящего вы не сделаете. Рецепты абсолютно
+								всех крафтов вещей Вы можете найти у нас на сайте. Не плохо было бы их выучить, так как
+								каждый раз их смотреть на сайте не совсем будет удобно, и будет требовать много лишнего
+								времени, хотя решать Вам.</p>
+							<p>После того, как вы скрафтили верстак, необходимо сделать деревянную кирку и пойти в
+								шахту,
+								чтобы добыть N-количество камня. При разрушении блока камня Вам выпадет булыжник, из
+								которого можно сделать множество инструментов, таких как: меч, кирка, топор, а также
+								броню,
+								печку и ещё много чего. После того, как Вы сделали каменную кирку, вам нужно добыть
+								железа,
+								для этого само собой нужно сходить в шахту. После того, как вы добыли железо, вам нужно
+								его
+								поместить в печь (её крафт можете увидеть у нас на сайте), и подпалить печь углём. Затем
+								подождать пока железо обработается печкой в слиток железа.</p>
+							<p>После этого Вам понадобится сделать железную кирку, и с помощью этой кирки вы можете
+								добывать
+								самую ценную руду – алмазы. Из них Вы также можете сделать кирку. Именно эта кирка
+								позволит
+								Вам добывать абсолютно все виды блоков в игре. Если Вы, к примеру, попытаетесь сломать
+								алмазную руду каменной киркой – вы просто разрушите этот блок руды, и Вам ничего не
+								выпадет.
+								Печально, не правда ли? На самом деле, игра предоставляет массу возможностей игроку, и
+								они
+								не ограничиваются только добычей ресурсов. Главное занятия в этой игре – строительство
+								разных зданий, которые вы можете обустроить как хотите, и жить в них вместе с Вашими
+								друзьями.</p>
+							<p><strong>Как можно разнообразить Майнкрафт?</strong></p>
+							<p>Вскоре, как игрок уже продолжительное время играет в Minecraft, чаще всего задается
+								вопросом:
+								«Как же мне ещё больше разнообразить игру?».</p>
+							<ul>
+								<li>Первый способ – это <strong>установка модов</strong>. При их использовании у вас
+									появятся новые предметы или же мобы. Всё зависит от того, какой именно вид мода Вы
+									используете. На данный момент их больше чем тысячи, поэтому выбор большой. Прежде
+									чем
+									устанавливать мод, Вы должны внимательно прочитать к нему инструкцию. Чаще всего
+									моды
+									требуют установки Minecraft Forge 1.11.2.</li>
+								<li>Второй способ – это <strong>установка читов</strong>. Читы дают превосходство в
+									игре, к
+									примеру, с помощью X-RAY Вы можете увидеть абсолютно все ресурсы, которые находятся
+									на
+									карте. Это конечно нечестно по отношению к другим игрокам, но решать Вам.</li>
+								<li>Третий способ – это <strong>установка ресурс-паков</strong>. Тем самым вы
+									значительно
+									изменяете вид деталей мира MineCraft, и тем самым делаете этот мир намного
+									интересней
+									для игры. На данный момент существует множество ресурс/текстур-паков, поэтому есть с
+									чего выбирать.</li>
+								<li>Четвёртый способ – у кого есть желание поиграть с друзьями в эту игру, создают
+									сервера.
+									Для того, чтобы его сделать, у нас на сайте есть множество интересных карт и
+									плагинов
+									для вашего проекта. Уверены, что вам из этого что-то понравится!</li>
+							</ul>
+							<p>Надеемся, что вся представленная информация была Вам полезной, поэтому рекомендуем Вам
+								посещать наш ресурс постоянно!</p>
+						</div>
+
+						<a href="javascript:" class="seo-description__content__spoiler-toggle" data-show-text="Показать ещё" data-hide-text="Скрыть">
+							Показать ещё
+						</a>
+					</div>
+					<div class="seo-description__image">
+						<picture><source srcset="images/description-bg.webp" type="image/webp"><img src="images/description-bg.png" alt=""></picture>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+	<svg class="footer__round-outside" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M0 31.9937H35C11.6667 32.2984 0 21.6338 0 0V31.9937Z"/>
+	</svg>
+
+	<div class="footer__content">
+
+		<div class="row">
+			<div class="col-12 col-sm-6 col-xl-3 col-xs-6">
+				<div class="footer__block">
+					<div class="footer__block__title">
+						Новости
+					</div>
+					<div class="footer__block__content">
+						<div class="posts-list">
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-list-item.webp" type="image/webp"><img src="images/post-list-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__title">
+									Mojang выпустила трейлер обновления «Коварные испытания»
+								</div>
+							</a>
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-list-item.webp" type="image/webp"><img src="images/post-list-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__title">
+									Mojang выпустила трейлер обновления «Коварные испытания»
+								</div>
+							</a>
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-list-item.webp" type="image/webp"><img src="images/post-list-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__title">
+									Mojang выпустила трейлер обновления «Коварные испытания»
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-xl-3 col-xs-6">
+				<div class="footer__block">
+					<div class="footer__block__title">
+						Новости
+					</div>
+					<div class="footer__block__content">
+						<div class="posts-list">
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-list-item.webp" type="image/webp"><img src="images/post-list-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__title">
+									Mojang выпустила трейлер обновления «Коварные испытания»
+								</div>
+							</a>
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-list-item.webp" type="image/webp"><img src="images/post-list-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__title">
+									Mojang выпустила трейлер обновления «Коварные испытания»
+								</div>
+							</a>
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-list-item.webp" type="image/webp"><img src="images/post-list-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__title">
+									Mojang выпустила трейлер обновления «Коварные испытания»
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-xl-3 col-xs-6">
+				<div class="footer__block">
+					<div class="footer__block__title">
+						Новости
+					</div>
+					<div class="footer__block__content">
+						<div class="posts-list">
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-list-item.webp" type="image/webp"><img src="images/post-list-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__title">
+									Mojang выпустила трейлер обновления «Коварные испытания»
+								</div>
+							</a>
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-list-item.webp" type="image/webp"><img src="images/post-list-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__title">
+									Mojang выпустила трейлер обновления «Коварные испытания»
+								</div>
+							</a>
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-list-item.webp" type="image/webp"><img src="images/post-list-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__title">
+									Mojang выпустила трейлер обновления «Коварные испытания»
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-xl-3 col-xs-6">
+				<div class="footer__block">
+					<div class="footer__block__title">
+						Новости
+					</div>
+					<div class="footer__block__content">
+						<div class="posts-list">
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-list-item.webp" type="image/webp"><img src="images/post-list-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__title">
+									Mojang выпустила трейлер обновления «Коварные испытания»
+								</div>
+							</a>
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-list-item.webp" type="image/webp"><img src="images/post-list-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__title">
+									Mojang выпустила трейлер обновления «Коварные испытания»
+								</div>
+							</a>
+							<a href="#" class="posts-list-item">
+								<div class="posts-list-item__image">
+									<picture><source srcset="images/post-list-item.webp" type="image/webp"><img src="images/post-list-item.png" alt=""></picture>
+								</div>
+								<div class="posts-list-item__title">
+									Mojang выпустила трейлер обновления «Коварные испытания»
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+
+	<div class="footer-copyright">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="copyright">
+				© 2021 - 2024. Все материалы, размещенные на сайте и доступные для скачивания, предоставляются в
+				ознакомительных целях.
+			</div>
+
+			<div class="darklup--text recaptcha-copyright wpc--darklup-element">
+				This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" rel="nofollow external noopener noreferrer" target="_blank" data-wpel-link="external" class="darklup--link">Privacy
+					Policy</a> and <a href="https://policies.google.com/terms" rel="nofollow external noopener noreferrer" data-wpel-link="external" class="darklup--link">Terms of
+					Service</a> apply.
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="js/main.min.js?_v=20241127104235"></script>
+</body>
+
+</html>
